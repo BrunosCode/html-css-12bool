@@ -19,3 +19,78 @@ div[class*="col"] div[class*="col"] {
     background-color: green;
     border: solid 1px blue;
 }
+
+
+/* THIRD ROW ANIMATION  */
+.animation * {
+    transition: 5s;
+}
+/* COLUMNS ANIMATION  */
+.animation:hover .col-xs-1 {
+    width: calc((100% / 12) * 11);
+}
+.animation:hover .col-xs-2 {
+    width: calc((100% / 12) * 10);
+}
+.animation:hover .col-xs-3 {
+    width: calc((100% / 12) * 9);
+}
+.animation:hover .col-xs-4 {
+    width: calc((100% / 12) * 8);
+}
+.animation:hover .col-xs-5 {
+    width: calc((100% / 12) * 7);
+}
+.animation:hover .col-xs-6 {
+    width: calc((100% / 12) * 6);
+}
+.animation:hover .col-xs-7 {
+    width: calc((100% / 12) * 5);
+}
+.animation:hover .col-xs-8 {
+    width: calc((100% / 12) * 4);
+}
+.animation:hover .col-xs-9 {
+    width: calc((100% / 12) * 3);
+}
+.animation:hover .col-xs-10 {
+    width: calc((100% / 12) * 2);
+}
+.animation:hover .col-xs-11 {
+    width: calc((100% / 12) * 1);
+}
+
+/* GUTTER ANIMATION */
+.animation:hover div[class*="col"].offset-xs-1 {
+    margin-left: calc((100% / 12) * 11);
+}
+.animation:hover div[class*="col"].offset-xs-2 {
+    margin-left: calc((100% / 12) * 10);
+}
+.animation:hover div[class*="col"].offset-xs-3 {
+    margin-left: calc((100% / 12) * 9);
+}
+.animation:hover div[class*="col"].offset-xs-4 {
+    margin-left: calc((100% / 12) * 8);
+}
+.animation:hover div[class*="col"].offset-xs-5 {
+    margin-left: calc((100% / 12) * 7);
+}
+.animation:hover div[class*="col"].offset-xs-6 {
+    margin-left: calc((100% / 12) * 6);
+}
+.animation:hover div[class*="col"].offset-xs-7 {
+    margin-left: calc((100% / 12) * 5);
+}
+.animation:hover div[class*="col"].offset-xs-8 {
+    margin-left: calc((100% / 12) * 4);
+}
+.animation:hover div[class*="col"].offset-xs-9 {
+    margin-left: calc((100% / 12) * 3);
+}
+.animation:hover div[class*="col"].offset-xs-10 {
+    margin-left: calc((100% / 12) * 2);
+}
+.animation:hover div[class*="col"].offset-xs-11 {
+    margin-left: calc((100% / 12) * 1);
+}
