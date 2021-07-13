@@ -1,0 +1,21 @@
+.row  {
+    margin-bottom: 1em;
+}
+.row .row {
+    margin-bottom: 0;
+}
+
+/* BLUE BOX  */
+div[class*="col"] {
+    background-color: blue;
+    color: white;
+    border: solid 1px white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* GREEN BOX  */
+div[class*="col"] div[class*="col"] {
+    background-color: green;
+    border: solid 1px blue;
+}
